@@ -1,5 +1,85 @@
+body{
+
+    background-color: #ffc17b;
+    font-family:monospace;
+    text-align: center;
+    margin-top: 50px;
+}
 .completed {
     text-decoration: line-through;
     color: gray;
     border: 1px solid gray;
+}
+
+.container{
+    background-color: #30b465;
+    width:500px;
+    border: 2px solid rgb(8, 8, 8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+
+}
+
+.container-header{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#input-task{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+#input-button {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e60ea;
+  }
+
+  #input-button:hover {
+    background-color: #9eb7fd; 
+  }
+
+  ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  }
+
+  li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.edit-button, .delete-button{
+
+    float: right;
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+}
+
+#task-counters{
+    font-size: 15px;
+    font-weight: 600; 
 }
