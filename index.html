@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="To do list app">
+    <meta name="description" content="Free To Do List App">
+    <meta name="Sencer Ilhan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>To Do List App</title>
+</head>
+<body>
+
+    <!-- To do list container-->
+    <div class="container">
+
+        <!-- Header container-->
+        <div class="container-header">
+            <h1> To Do List </h1>
+        </div>
+        <!-- Container to add your tasks-->
+        <div class="input-task">
+            
+                <input type="text" id="input-task" name="input-task" placeholder="Enter your task">
+        
+            <button id="input-button" onclick="addTask()">Add</button>
+        </div>
+        <!-- Task List-->
+        <div class="task-list">
+            <h2>Task List</h2>
+            <ul id="list-container"></ul>
+            <hr>
+        <!--Counter Container for Completed & Uncompleted tasks-->
+            <div class="counter-container">
+                <div id="task-counters"> 
+                    Completed: <span id="completed-counter">0</span> | Uncompleted: 
+                    <span id="uncompleted-counter">0</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
